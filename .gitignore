@@ -1,0 +1,6 @@
+vue-vite/node_modules
+vue-vite/.DS_Store
+vue-vite/dist
+vue-vite/dist-ssr
+vue-vite/*.local
+egg-server/node_modules

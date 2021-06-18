@@ -1,0 +1,20 @@
+2021-06-16 16:15:38,266 INFO 24172 [egg:logger] init all loggers with options: {"dir":"E:\\webDemo\\vue3学习\\egg-server\\logs\\egg-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-06-16 16:15:38,274 INFO 24172 [egg:core] dump config after load, 3ms
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher] Start watching: ["E:\\webDemo\\vue3学习\\egg-server\\app","E:\\webDemo\\vue3学习\\egg-server\\config","E:\\webDemo\\vue3学习\\egg-server\\mocks","E:\\webDemo\\vue3学习\\egg-server\\mocks_proxy","E:\\webDemo\\vue3学习\\egg-server\\app.js"]
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\app"
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\config"
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\mocks"
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\mocks_proxy"
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\app.js"
+2021-06-16 16:15:38,307 INFO 24172 [egg-watcher:agent] watcher start success
+2021-06-16 16:15:38,312 INFO 24172 [egg:core] dump config after ready, 3ms
+2021-06-16 16:23:10,508 INFO 29456 [egg:logger] init all loggers with options: {"dir":"E:\\webDemo\\vue3学习\\egg-server\\logs\\egg-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-06-16 16:23:10,516 INFO 29456 [egg:core] dump config after load, 3ms
+2021-06-16 16:23:10,549 INFO 29456 [egg-watcher] Start watching: ["E:\\webDemo\\vue3学习\\egg-server\\app","E:\\webDemo\\vue3学习\\egg-server\\config","E:\\webDemo\\vue3学习\\egg-server\\mocks","E:\\webDemo\\vue3学习\\egg-server\\mocks_proxy","E:\\webDemo\\vue3学习\\egg-server\\app.js"]
+2021-06-16 16:23:10,549 INFO 29456 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\app"
+2021-06-16 16:23:10,550 INFO 29456 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\config"
+2021-06-16 16:23:10,550 INFO 29456 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\mocks"
+2021-06-16 16:23:10,550 INFO 29456 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\mocks_proxy"
+2021-06-16 16:23:10,550 INFO 29456 [egg-watcher] Start watching: "E:\\webDemo\\vue3学习\\egg-server\\app.js"
+2021-06-16 16:23:10,550 INFO 29456 [egg-watcher:agent] watcher start success
+2021-06-16 16:23:10,559 INFO 29456 [egg:core] dump config after ready, 3ms
