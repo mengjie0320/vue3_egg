@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev",
+    "dev": "egg-bin dev --port=7003",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "egg": "^2.29.4"
+    "egg": "^2.29.4",
+    "egg-cors": "^2.2.3"
   },
   "devDependencies": {
+    "@types/node": "^15.12.4",
     "egg-bin": "^4.16.2"
   }
 }

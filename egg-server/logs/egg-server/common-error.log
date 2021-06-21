@@ -58,3 +58,39 @@ hostname: v_mjvzhang-NB4
 pid: 35036
 hostname: v_mjvzhang-NB4
 
+2021-06-21 14:08:55,549 ERROR 24292 nodejs.ClusterClientNoResponseError: client no response in 1351524ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 24292
+hostname: v_mjvzhang-NB4
+
+2021-06-21 17:23:43,322 ERROR 4264 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\webDemo\\vue3_egg\\egg-server\\app\\controller copy"
+name: "EPERMError"
+pid: 4264
+hostname: v_mjvzhang-NB4
+
+2021-06-21 20:45:10,074 ERROR 35992 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property 'index' of undefined
+    at testController.testProxy (E:\webDemo\vue3_egg\egg-server\app\controller\test\index.js:13:35)
+    at Object.callFn (E:\webDemo\vue3_egg\egg-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webDemo\vue3_egg\egg-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webDemo\vue3_egg\egg-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webDemo\vue3_egg\egg-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:45:18)
+    at E:\webDemo\vue3_egg\egg-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:44:32)
+    at E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:36:12
+
+pid: 35992
+hostname: v_mjvzhang-NB4
+

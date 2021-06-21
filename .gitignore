@@ -4,3 +4,5 @@ vue-vite/dist
 vue-vite/dist-ssr
 vue-vite/*.local
 egg-server/node_modules
+egg-server/logs
+egg-server/run

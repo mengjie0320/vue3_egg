@@ -1,269 +1,276 @@
 {
-  "keys": "E:\\webDemo\\vue3学习\\egg-server\\config\\config.default.js",
+  "keys": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js",
+  "cors": {
+    "origin": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js",
+    "allowMethods": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js",
+    "credentials": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js"
+  },
   "session": {
-    "maxAge": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
-    "logValue": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "type": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "ipExceptionList": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "allowArrayField": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
-      "disable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideIgnore": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "root": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "name": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "env": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "version": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "description": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "main": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "name": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "main": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "dev": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "test": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "dev": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "license": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "author": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "egg": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "@types/node": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "strict": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "depth": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "env": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "level": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "dir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "logging": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "enable": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "port": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+      "path": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "E:\\webDemo\\vue3学习\\egg-server\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg\\config\\config.default.js"
 }
