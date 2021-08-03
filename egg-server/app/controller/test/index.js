@@ -21,3 +21,25 @@ class TestController extends Controller{
     }
 }
 module.exports = TestController;
+
+let line = 180 || 2000000014;
+console.log(line);
+    let str = '', num = line, center = line / 2;
+    while(line != 1 && line > center){
+        for(let i = 2; i <= center; i++){
+            if(line % i == 0){
+                line /= i;
+                str = str + i + " ";
+                break;
+            }
+        }
+    }
+    if(line > 1){
+        if(line == num){
+            str = 1 + " " + num + " ";
+        }else{
+            str = str + line + " ";
+        }
+    }
+    
+    console.log(str);

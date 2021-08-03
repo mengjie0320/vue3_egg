@@ -142,3 +142,15 @@
 2021-06-21 20:56:10,984 INFO 9584 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-06-21 20:56:10,985 INFO 9584 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-06-21 20:56:10,985 INFO 9584 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-12 16:19:59,067 INFO 23264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 43800935ms at 2021-07-13 04:30:00.002
+2021-07-12 16:19:59,068 INFO 23264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27600932ms at 2021-07-13 00:00:00.000
+2021-07-12 16:19:59,068 INFO 23264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27601932ms at 2021-07-13 00:00:01.000
+2021-07-12 16:19:58,902 INFO 24480 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-12 16:19:58,902 INFO 24480 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-12 16:19:58,902 INFO 24480 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-19 18:50:47,594 INFO 26536 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 34752409ms at 2021-07-20 04:30:00.003
+2021-07-19 18:50:47,594 INFO 26536 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 18552406ms at 2021-07-20 00:00:00.000
+2021-07-19 18:50:47,594 INFO 26536 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 18553406ms at 2021-07-20 00:00:01.000
+2021-07-19 18:50:47,459 INFO 27024 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-19 18:50:47,459 INFO 27024 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-19 18:50:47,459 INFO 27024 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

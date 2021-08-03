@@ -316,3 +316,33 @@ hostname: v_mjvzhang-NB4
 2021-06-21 20:56:09,927 INFO 21052 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\webDemo\\vue3_egg\\egg-server\\app\\router.js","stat":{"dev":3491827822,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1970324838819770,"size":186,"atimeMs":1624280169924.2188,"mtimeMs":1624280169924.2188,"ctimeMs":1624280169924.2188,"birthtimeMs":1624277820089.4026,"atime":"2021-06-21T12:56:09.924Z","mtime":"2021-06-21T12:56:09.924Z","ctime":"2021-06-21T12:56:09.924Z","birthtime":"2021-06-21T12:17:00.089Z"},"remove":false,"isDirectory":false,"isFile":true}
 2021-06-21 20:56:09,927 INFO 21052 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\webDemo\\vue3_egg\\egg-server\\app\\router.js","stat":{"dev":3491827822,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1970324838819770,"size":186,"atimeMs":1624280169924.2188,"mtimeMs":1624280169924.2188,"ctimeMs":1624280169924.2188,"birthtimeMs":1624277820089.4026,"atime":"2021-06-21T12:56:09.924Z","mtime":"2021-06-21T12:56:09.924Z","ctime":"2021-06-21T12:56:09.924Z","birthtime":"2021-06-21T12:17:00.089Z"},"remove":false,"isDirectory":false,"isFile":true}
 2021-06-21 20:56:10,128 WARN 21052 [agent:development] reload worker because E:\webDemo\vue3_egg\egg-server\app\router.js change
+2021-07-12 16:19:58,123 INFO 23264 [egg:logger] init all loggers with options: {"dir":"E:\\webDemo\\vue3_egg\\egg-server\\logs\\egg-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-12 16:19:58,131 INFO 23264 [egg:core] dump config after load, 2ms
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher] Start watching: ["E:\\webDemo\\vue3_egg\\egg-server\\app","E:\\webDemo\\vue3_egg\\egg-server\\config","E:\\webDemo\\vue3_egg\\egg-server\\mocks","E:\\webDemo\\vue3_egg\\egg-server\\mocks_proxy","E:\\webDemo\\vue3_egg\\egg-server\\app.js"]
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\app"
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\config"
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\mocks"
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\mocks_proxy"
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\app.js"
+2021-07-12 16:19:58,169 INFO 23264 [egg-watcher:agent] watcher start success
+2021-07-12 16:19:58,186 INFO 23264 [egg:core] dump config after ready, 5ms
+2021-07-12 19:41:51,572 ERROR 23264 nodejs.ClusterClientNoResponseError: client no response in 192148ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23264
+hostname: v_mjvzhang-NB4
+
+2021-07-19 18:50:46,665 INFO 26536 [egg:logger] init all loggers with options: {"dir":"E:\\webDemo\\vue3_egg\\egg-server\\logs\\egg-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 18:50:46,674 INFO 26536 [egg:core] dump config after load, 3ms
+2021-07-19 18:50:46,714 INFO 26536 [egg-watcher] Start watching: ["E:\\webDemo\\vue3_egg\\egg-server\\app","E:\\webDemo\\vue3_egg\\egg-server\\config","E:\\webDemo\\vue3_egg\\egg-server\\mocks","E:\\webDemo\\vue3_egg\\egg-server\\mocks_proxy","E:\\webDemo\\vue3_egg\\egg-server\\app.js"]
+2021-07-19 18:50:46,714 INFO 26536 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\app"
+2021-07-19 18:50:46,714 INFO 26536 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\config"
+2021-07-19 18:50:46,714 INFO 26536 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\mocks"
+2021-07-19 18:50:46,714 INFO 26536 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\mocks_proxy"
+2021-07-19 18:50:46,715 INFO 26536 [egg-watcher] Start watching: "E:\\webDemo\\vue3_egg\\egg-server\\app.js"
+2021-07-19 18:50:46,715 INFO 26536 [egg-watcher:agent] watcher start success
+2021-07-19 18:50:46,723 INFO 26536 [egg:core] dump config after ready, 2ms
