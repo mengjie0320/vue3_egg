@@ -139,7 +139,7 @@
       "maxDays": 31
     },
     "static": {
-      "prefix": "/public/",
+      "prefix": "/",
       "dir": "E:\\webDemo\\vue3_egg\\egg-server\\app\\public",
       "dynamic": true,
       "preload": false,

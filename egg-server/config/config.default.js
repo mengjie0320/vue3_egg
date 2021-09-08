@@ -7,6 +7,11 @@ exports.cors = {
     credentials: true, 
 };
 
+exports.static = {
+    // prefix: "/public/",
+    prefix: "/",
+}
+
 // exports.security = {
 //     // 关闭csrf验证
 //     csrf: {

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="/mb/v4/inc/meta.shtml" -->
+    
+    <!--#include virtual="/mb/inc/check_oauth.shtml" -->
+    
+    <title>理财通</title>
+    <meta pageId="58">
+    <meta pageName="lq vs lqt">
+</head>
+<body>
+<div class="box lego-box" data-role="page" data-ani="1">
+    
+<!--#include virtual="/mb/lego/inc/style.shtml" -->
+
+<div class="mdv-content">
+    
+    <div class="js-mdv" mdv-name="lq-notice" mdv-data='{"style_type":"1","tip_type":"1","pre_txt":"hhh","last_txt":"hhh","lqt_pre_txt":"","lqt_last_txt":"","n2":"100","static_txt":"哈哈哈哈","lq_pre_txt":"微信零钱","lq_last_txt":"闲置"}'></div>
+    
+</div>
+
+<!--#include virtual="/mb/lego/inc/page.shtml" -->
+
+</div>
+
+<!--#include virtual="/mb/v4/inc/lib.shtml" -->
+
+<!--#include virtual="/mb/lego/inc/script.shtml" -->
+
+</body>
+</html>

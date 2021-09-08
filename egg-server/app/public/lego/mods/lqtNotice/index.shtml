@@ -1,0 +1,23 @@
+<script type="text/template">
+    <style>
+        .lego-lq-notice-box{padding:2rem 2rem 1rem; background-color:#fff;}
+        .lego-lq-notice{padding-left:2.5rem; position:relative; line-height: 2.4rem; font-size:1.6rem; color:#2C2C2C;}
+        .lego-lq-notice .ico-notice{width: 1.5rem; height:1.5rem; position:absolute; left:0; top:.5rem; background:url(//qian-img.tenpay.com/resources/vtools/img/202103/eb745b13a8e17bb20fa521abb74625c6.png); background-size:cover;}
+    </style>
+    <div class="js-plugin-wrap-about-lct">
+        {{if showStyleType == 'lqt'}}
+              <div class="lego-lq-notice-box">
+                  <section class="lego-lq-notice"><i class="ico-notice"></i>{{= lqt_pre_txt}} <strong class="f-bold">{{= lqt_balance}}</strong>元 {{= lqt_last_txt}}</section>
+              </div>
+            {{else showStyleType == 'lq'}}
+                <div class="lego-lq-notice-box">
+                    <section class="lego-lq-notice"><i class="ico-notice"></i>{{= pre_txt}} <strong class="f-bold">{{= wx_lq_balance}}</strong>元 {{= last_txt}}</section>
+                </div>
+            {{else showStyleType == 'static'}}
+            <div class="lego-lq-notice-box">
+                <section class="lego-lq-notice"><i class="ico-notice"></i>{{= static_txt}}</section>
+            </div>
+        {{/if}}
+
+    </div>
+</script>

@@ -1,106 +1,60 @@
-2021-06-16 16:15:53,722 ERROR 35036 [-/::1/-/7ms GET /] nodejs.Error: Please set config.keys first
-    at Application.get keys [as keys] (E:\webDemo\vue3学习\egg-server\node_modules\egg\lib\application.js:266:15)
-    at Object.get cookies [as cookies] (E:\webDemo\vue3学习\egg-server\node_modules\egg\app\extend\context.js:22:66)
-    at Object.get [egg-security#CSRF_SECRET] (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:91:35)
-    at Object.ensureCsrfSecret (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:104:13)
-    at csrf (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at session (E:\webDemo\vue3学习\egg-server\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-
-pid: 35036
-hostname: v_mjvzhang-NB4
-
-2021-06-16 16:18:37,785 ERROR 35036 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
-    at Application.get keys [as keys] (E:\webDemo\vue3学习\egg-server\node_modules\egg\lib\application.js:266:15)
-    at Object.get cookies [as cookies] (E:\webDemo\vue3学习\egg-server\node_modules\egg\app\extend\context.js:22:66)
-    at Object.get [egg-security#CSRF_SECRET] (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:91:35)
-    at Object.ensureCsrfSecret (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:104:13)
-    at csrf (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at session (E:\webDemo\vue3学习\egg-server\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-
-pid: 35036
-hostname: v_mjvzhang-NB4
-
-2021-06-16 16:18:40,603 ERROR 35036 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
-    at Application.get keys [as keys] (E:\webDemo\vue3学习\egg-server\node_modules\egg\lib\application.js:266:15)
-    at Object.get cookies [as cookies] (E:\webDemo\vue3学习\egg-server\node_modules\egg\app\extend\context.js:22:66)
-    at Object.get [egg-security#CSRF_SECRET] (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:91:35)
-    at Object.ensureCsrfSecret (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:104:13)
-    at csrf (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at session (E:\webDemo\vue3学习\egg-server\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-
-pid: 35036
-hostname: v_mjvzhang-NB4
-
-2021-06-16 16:18:42,372 ERROR 35036 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
-    at Application.get keys [as keys] (E:\webDemo\vue3学习\egg-server\node_modules\egg\lib\application.js:266:15)
-    at Object.get cookies [as cookies] (E:\webDemo\vue3学习\egg-server\node_modules\egg\app\extend\context.js:22:66)
-    at Object.get [egg-security#CSRF_SECRET] (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:91:35)
-    at Object.ensureCsrfSecret (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\app\extend\context.js:104:13)
-    at csrf (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at E:\webDemo\vue3学习\egg-server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at session (E:\webDemo\vue3学习\egg-server\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\webDemo\vue3学习\egg-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-
-pid: 35036
-hostname: v_mjvzhang-NB4
-
-2021-06-21 14:08:55,549 ERROR 24292 nodejs.ClusterClientNoResponseError: client no response in 1351524ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-08-08 09:50:22,813 ERROR 31832 nodejs.ClusterClientNoResponseError: client no response in 32021624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 24292
+pid: 31832
 hostname: v_mjvzhang-NB4
 
-2021-06-21 17:23:43,322 ERROR 4264 nodejs.EPERMError: EPERM: operation not permitted, watch
-    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
-errno: -4048
-syscall: "watch"
-code: "EPERM"
-filename: null
-dir: "E:\\webDemo\\vue3_egg\\egg-server\\app\\controller copy"
-name: "EPERMError"
-pid: 4264
-hostname: v_mjvzhang-NB4
-
-2021-06-21 20:45:10,074 ERROR 35992 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property 'index' of undefined
-    at testController.testProxy (E:\webDemo\vue3_egg\egg-server\app\controller\test\index.js:13:35)
-    at Object.callFn (E:\webDemo\vue3_egg\egg-server\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (E:\webDemo\vue3_egg\egg-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (E:\webDemo\vue3_egg\egg-server\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (E:\webDemo\vue3_egg\egg-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:44:32)
-    at next (E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:45:18)
-    at E:\webDemo\vue3_egg\egg-server\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:44:32)
-    at E:\webDemo\vue3_egg\egg-server\node_modules\koa-compose\index.js:36:12
-
-pid: 35992
-hostname: v_mjvzhang-NB4
-
-2021-07-12 19:41:51,569 ERROR 23264 nodejs.ClusterClientNoResponseError: client no response in 192148ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-08-08 15:09:33,555 ERROR 31832 nodejs.ClusterClientNoResponseError: client no response in 10810914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 23264
+pid: 31832
+hostname: v_mjvzhang-NB4
+
+2021-08-08 17:00:45,209 ERROR 31832 nodejs.ClusterClientNoResponseError: client no response in 6671652ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31832
+hostname: v_mjvzhang-NB4
+
+2021-08-08 21:07:19,603 ERROR 31832 nodejs.ClusterClientNoResponseError: client no response in 2214827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31832
+hostname: v_mjvzhang-NB4
+
+2021-08-08 21:18:25,153 ERROR 31832 nodejs.ClusterClientNoResponseError: client no response in 645540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31832
+hostname: v_mjvzhang-NB4
+
+2021-08-09 20:56:54,630 ERROR 9456 nodejs.ClusterClientNoResponseError: client no response in 9731266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\webDemo\vue3_egg\egg-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9456
 hostname: v_mjvzhang-NB4
 

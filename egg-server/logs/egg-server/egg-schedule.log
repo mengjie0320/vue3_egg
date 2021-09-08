@@ -1,156 +1,21 @@
-2021-06-16 16:15:39,146 INFO 24172 [Timer] E:\webDemo\vue3学习\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 44060856ms at 2021-06-17 04:30:00.002
-2021-06-16 16:15:39,146 INFO 24172 [Timer] E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27860854ms at 2021-06-17 00:00:00.000
-2021-06-16 16:15:39,147 INFO 24172 [Timer] E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27861854ms at 2021-06-17 00:00:01.001
-2021-06-16 16:15:39,027 INFO 35036 [egg-schedule]: register schedule E:\webDemo\vue3学习\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-16 16:15:39,027 INFO 35036 [egg-schedule]: register schedule E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-16 16:15:39,027 INFO 35036 [egg-schedule]: register schedule E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-16 16:23:11,425 INFO 29456 [Timer] E:\webDemo\vue3学习\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 43608577ms at 2021-06-17 04:30:00.002
-2021-06-16 16:23:11,426 INFO 29456 [Timer] E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27408575ms at 2021-06-17 00:00:00.001
-2021-06-16 16:23:11,426 INFO 29456 [Timer] E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27409574ms at 2021-06-17 00:00:01.000
-2021-06-16 16:23:11,307 INFO 5308 [egg-schedule]: register schedule E:\webDemo\vue3学习\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-16 16:23:11,307 INFO 5308 [egg-schedule]: register schedule E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-16 16:23:11,307 INFO 5308 [egg-schedule]: register schedule E:\webDemo\vue3学习\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 12:33:43,735 INFO 23784 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 12:33:43,735 INFO 23784 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 12:33:43,735 INFO 23784 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 12:33:43,878 INFO 24292 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 57376124ms at 2021-06-22 04:30:00.002
-2021-06-21 12:33:43,879 INFO 24292 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 41176122ms at 2021-06-22 00:00:00.001
-2021-06-21 12:33:43,879 INFO 24292 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 41177121ms at 2021-06-22 00:00:01.000
-2021-06-21 17:17:27,259 INFO 7716 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 40352743ms at 2021-06-22 04:30:00.002
-2021-06-21 17:17:27,259 INFO 7716 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 24152741ms at 2021-06-22 00:00:00.000
-2021-06-21 17:17:27,259 INFO 7716 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 24153741ms at 2021-06-22 00:00:01.000
-2021-06-21 17:17:27,110 INFO 36448 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:17:27,111 INFO 36448 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:17:27,111 INFO 36448 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 17:18:57,295 INFO 4264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 40262708ms at 2021-06-22 04:30:00.003
-2021-06-21 17:18:57,295 INFO 4264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 24062705ms at 2021-06-22 00:00:00.000
-2021-06-21 17:18:57,295 INFO 4264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 24063705ms at 2021-06-22 00:00:01.000
-2021-06-21 17:18:57,187 INFO 25516 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:18:57,188 INFO 25516 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:18:57,188 INFO 25516 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 17:20:45,546 INFO 11588 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:20:45,546 INFO 11588 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:20:45,546 INFO 11588 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 17:20:56,761 INFO 12792 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:20:56,761 INFO 12792 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:20:56,761 INFO 12792 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 17:22:54,945 INFO 29060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:22:54,945 INFO 29060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:22:54,945 INFO 29060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 17:23:44,290 INFO 23656 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:23:44,290 INFO 23656 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:23:44,290 INFO 23656 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 17:24:07,103 INFO 16060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 17:24:07,103 INFO 16060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 17:24:07,103 INFO 16060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 18:47:00,355 INFO 4056 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 34979647ms at 2021-06-22 04:30:00.002
-2021-06-21 18:47:00,356 INFO 4056 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 18779644ms at 2021-06-22 00:00:00.000
-2021-06-21 18:47:00,356 INFO 4056 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 18780644ms at 2021-06-22 00:00:01.000
-2021-06-21 18:47:00,247 INFO 21876 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 18:47:00,247 INFO 21876 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 18:47:00,247 INFO 21876 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:06:03,636 INFO 4736 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 30236366ms at 2021-06-22 04:30:00.002
-2021-06-21 20:06:03,636 INFO 4736 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 14036364ms at 2021-06-22 00:00:00.000
-2021-06-21 20:06:03,636 INFO 4736 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14037364ms at 2021-06-22 00:00:01.000
-2021-06-21 20:06:03,524 INFO 24468 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:06:03,524 INFO 24468 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:06:03,524 INFO 24468 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:11:25,163 INFO 15488 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:11:25,163 INFO 15488 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:11:25,163 INFO 15488 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:13:03,997 INFO 14468 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:13:03,997 INFO 14468 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:13:03,997 INFO 14468 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:13:17,312 INFO 4896 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 29802690ms at 2021-06-22 04:30:00.002
-2021-06-21 20:13:17,312 INFO 4896 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 13602688ms at 2021-06-22 00:00:00.000
-2021-06-21 20:13:17,312 INFO 4896 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 13603688ms at 2021-06-22 00:00:01.000
-2021-06-21 20:13:17,200 INFO 5004 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:13:17,200 INFO 5004 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:13:17,200 INFO 5004 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:17:01,245 INFO 21052 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:17:01,245 INFO 21052 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:17:01,245 INFO 21052 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:17:05,023 INFO 37532 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:17:05,023 INFO 37532 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:17:05,023 INFO 37532 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:17:28,576 INFO 37680 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:17:28,576 INFO 37680 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:17:28,576 INFO 37680 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:17:48,049 INFO 9320 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:17:48,049 INFO 9320 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:17:48,049 INFO 9320 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:17:54,255 INFO 22076 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:17:54,255 INFO 22076 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:17:54,255 INFO 22076 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:21:04,811 INFO 16984 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:21:04,811 INFO 16984 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:21:04,811 INFO 16984 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:21:06,421 INFO 12832 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:21:06,421 INFO 12832 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:21:06,421 INFO 12832 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:38:49,600 INFO 35960 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 28270402ms at 2021-06-22 04:30:00.002
-2021-06-21 20:38:49,600 INFO 35960 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 12070400ms at 2021-06-22 00:00:00.000
-2021-06-21 20:38:49,600 INFO 35960 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 12071400ms at 2021-06-22 00:00:01.000
-2021-06-21 20:38:49,486 INFO 28872 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:38:49,486 INFO 28872 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:38:49,486 INFO 28872 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:45:02,494 INFO 21052 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 27897510ms at 2021-06-22 04:30:00.004
-2021-06-21 20:45:02,494 INFO 21052 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 11697506ms at 2021-06-22 00:00:00.000
-2021-06-21 20:45:02,495 INFO 21052 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 11698505ms at 2021-06-22 00:00:01.000
-2021-06-21 20:45:02,375 INFO 35992 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:45:02,375 INFO 35992 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:45:02,375 INFO 35992 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:46:01,549 INFO 35268 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:46:01,549 INFO 35268 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:46:01,549 INFO 35268 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:46:38,509 INFO 32340 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:46:38,509 INFO 32340 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:46:38,509 INFO 32340 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:48:49,213 INFO 35960 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:48:49,213 INFO 35960 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:48:49,213 INFO 35960 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:48:56,618 INFO 33228 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:48:56,618 INFO 33228 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:48:56,618 INFO 33228 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:49:14,130 INFO 10656 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:49:14,130 INFO 10656 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:49:14,130 INFO 10656 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:49:26,921 INFO 1448 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:49:26,921 INFO 1448 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:49:26,921 INFO 1448 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:50:07,974 INFO 31464 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:50:07,974 INFO 31464 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:50:07,974 INFO 31464 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:51:09,421 INFO 3684 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:51:09,421 INFO 3684 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:51:09,421 INFO 3684 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:51:17,888 INFO 5516 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:51:17,888 INFO 5516 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:51:17,888 INFO 5516 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:51:30,799 INFO 29364 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:51:30,799 INFO 29364 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:51:30,799 INFO 29364 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:52:00,316 INFO 36348 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:52:00,316 INFO 36348 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:52:00,316 INFO 36348 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:52:05,120 INFO 13060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:52:05,120 INFO 13060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:52:05,120 INFO 13060 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:52:41,756 INFO 10828 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:52:41,756 INFO 10828 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:52:41,756 INFO 10828 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-06-21 20:56:10,984 INFO 9584 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-06-21 20:56:10,985 INFO 9584 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-06-21 20:56:10,985 INFO 9584 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-07-12 16:19:59,067 INFO 23264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 43800935ms at 2021-07-13 04:30:00.002
-2021-07-12 16:19:59,068 INFO 23264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27600932ms at 2021-07-13 00:00:00.000
-2021-07-12 16:19:59,068 INFO 23264 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27601932ms at 2021-07-13 00:00:01.000
-2021-07-12 16:19:58,902 INFO 24480 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-07-12 16:19:58,902 INFO 24480 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-07-12 16:19:58,902 INFO 24480 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2021-07-19 18:50:47,594 INFO 26536 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 34752409ms at 2021-07-20 04:30:00.003
-2021-07-19 18:50:47,594 INFO 26536 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 18552406ms at 2021-07-20 00:00:00.000
-2021-07-19 18:50:47,594 INFO 26536 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 18553406ms at 2021-07-20 00:00:01.000
-2021-07-19 18:50:47,459 INFO 27024 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2021-07-19 18:50:47,459 INFO 27024 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
-2021-07-19 18:50:47,459 INFO 27024 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-08 09:50:22,813 INFO 31832 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67177193ms at 2021-08-09 04:30:00.006
+2021-08-08 09:50:22,809 INFO 16236 [Job#162838742122932560787431397992] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-08-08 09:50:22,842 INFO 16236 [Job#162838742122932560787431397992] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 33ms. 
+2021-08-09 14:51:16,565 INFO 11748 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 49123437ms at 2021-08-10 04:30:00.002
+2021-08-09 14:51:16,566 INFO 11748 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 32923434ms at 2021-08-10 00:00:00.000
+2021-08-09 14:51:16,566 INFO 11748 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 32924434ms at 2021-08-10 00:00:01.000
+2021-08-09 14:51:16,428 INFO 15932 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-09 14:51:16,428 INFO 15932 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-09 14:51:16,428 INFO 15932 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-09 15:16:02,566 INFO 9456 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47637436ms at 2021-08-10 04:30:00.002
+2021-08-09 15:16:02,566 INFO 9456 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 31437434ms at 2021-08-10 00:00:00.000
+2021-08-09 15:16:02,567 INFO 9456 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 31438434ms at 2021-08-10 00:00:01.001
+2021-08-09 15:16:02,425 INFO 5020 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-09 15:16:02,425 INFO 5020 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-09 15:16:02,425 INFO 5020 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-08-10 14:23:12,704 INFO 28612 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 50807298ms at 2021-08-11 04:30:00.002
+2021-08-10 14:23:12,704 INFO 28612 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34607296ms at 2021-08-11 00:00:00.000
+2021-08-10 14:23:12,705 INFO 28612 [Timer] E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34608296ms at 2021-08-11 00:00:01.001
+2021-08-10 14:23:12,567 INFO 26156 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-08-10 14:23:12,567 INFO 26156 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-08-10 14:23:12,567 INFO 26156 [egg-schedule]: register schedule E:\webDemo\vue3_egg\egg-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

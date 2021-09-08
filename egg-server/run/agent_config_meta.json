@@ -5,6 +5,14 @@
     "allowMethods": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js",
     "credentials": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js"
   },
+  "static": {
+    "prefix": "E:\\webDemo\\vue3_egg\\egg-server\\config\\config.default.js",
+    "dir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
     "key": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-session\\config\\config.default.js",
@@ -138,14 +146,6 @@
     "maxFiles": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
     "rotateDuration": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js",
     "maxDays": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-logrotator\\config\\config.default.js"
-  },
-  "static": {
-    "prefix": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
     "root": "E:\\webDemo\\vue3_egg\\egg-server\\node_modules\\egg-view\\config\\config.default.js",

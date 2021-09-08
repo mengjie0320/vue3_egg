@@ -1,0 +1,23 @@
+<script type="text/template">
+
+    <style>
+        .lego-fund-risk-box{margin-top: 1rem;}
+        .lego-fund-risk{padding:0 2rem; background-color:#fff;}
+        .lego-fund-risk h3{padding:2rem 0 1rem; border-bottom:1px solid #ddd; font-size:1.6rem;}
+        .lego-fund-risk p{padding:1.6rem 0; font-size:1.4rem; line-height: 2.1rem;}
+        .lego-fund-risk-tips{margin-top: 1rem; padding:1.6rem 2rem; font-size:1rem; background-color:#fff; line-height: 1.5rem;}
+    </style>
+    {{if risk_txt}}
+    <div class="lego-fund-risk-box  js-plugin-wrap-about-lct" data-stat="yygg.model.risk" data-stat_conf="evt=click,brow">
+        <div class="lego-fund-risk">
+            <h3 class="f-bold">风险提示</h3>
+            <p class="f-gray">{{= risk_txt}}</p>
+        </div>
+        {{if risk_tip}}
+        <div class="lego-fund-risk-tips f-gray">
+            {{= risk_tip}}
+        </div>
+        {{/if}}
+    </div>
+    {{/if}}
+</script>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-lego-preview</title>
+</head>
+<body>
+    <div id="tenant-model-box" class="tenant-model" style="display: none;">
+        <div class="tenant-model-content">
+            <header class="tenant-model-header">
+                <h4 style="margin-left: 20px;padding:5px;font-weight: bold;height: 30px;line-height: 30px;font-size: 18px;">提示</h4>
+                <span id="closeModel">×</span>
+            </header>
+            <div class="textContent">
+                <p>确定删除模块?</p>
+            </div>
+            <div class="tenant-model-body">
+                    <div class="search-contain">
+                        <button id="cancal_btn">取消</button>
+                        <button id="primary_btn">确定</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box p-convert previewer-plugin-list js-plugins" draggable="true" data-role="page" data-ani="1"></div>
+    <div class="mdv-content">
+        <!-- <div class="js-mdv" mdv-name="lq-notice" mdv-data='{"style_type":"1","tip_type":"1","pre_txt":"hhh","last_txt":"hhh","lqt_pre_txt":"","lqt_last_txt":"","n2":"100","static_txt":"哈哈哈哈","lq_pre_txt":"微信零钱","lq_last_txt":"闲置"}'></div>    -->
+    </div>
+    
+    <script type="text/template" class="js-plugin-tpl">
+        <div class="plugin-container js-drag-el empty-mask" draggable="true">
+            {{if !hideMask}}
+            <div class="mask">
+                
+                <i class="fa fa-pencil-square-o js-edit-plugin plu-action" aria-hidden="true"></i>
+                <i class="fa fa-times js-delete-plugin plu-action" aria-hidden="true"></i>
+                <i class="fa plu-action fa-clipboard js-copy"></i></b>
+                <i class="bottom-arrow2 fa  plu-action down"></i></b>
+                <i class="top-arrow2 fa  plu-action up" ></i></b>
+                
+            </div>
+            {{/if}}
+            <div class="plugin-wrap js-plugin-wrap">
+                {{if typeof _pluginConfig != 'undefined'}}
+                    <div class="mod-name-tip">
+                        {{= _pluginConfig.text}}模块
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+    </script>
+    <script src="../static/jquery.min.js"></script>
+    <script src="../static/jquery.tmpl.js"></script>
+    <script type="text/javascript" src="lego.js"></script>
+    <script type="text/javascript">
+    console.log('11 ---> ', 11);
+    var lMApp = lMInit(document.body);
+    var uuid = 1; // 给plugin编号
+    var postMsg = function(data){
+        console.log('iframe返回的 data ---> ', data);
+        window.parent.postMessage(data, '*');
+    }
+
+    function initPluginHtml(data) {
+        console.log('initPluginHtml data ---> ', data);
+        var html = $('.js-plugin-tpl').tmpl(data);
+        console.log('html ---> ', html);
+        var $el = $(html);
+        var $box = $('.previewer-plugin-list');
+
+        var $over = $('.js-over');
+
+        $el.prop('id', data._id);
+        if ($over.length) {
+            $($el).insertAfter($over);
+            $over.removeClass('js-over');
+        } else {
+            $box.append($el);
+        }
+        return $el;
+    }
+
+    var Cmds = {
+        addPlugin: function(data){
+            // 加载
+            let renderData = {
+                _pluginConfig: Object.assign({}, data.newPluginConfig || {}),
+                hideMask: false
+            }
+            console.log('renderData ---> ', renderData);
+            let postData = {
+                pluginName: data.pluginName,
+                _id: 'plugin-' + uuid,
+                action: 'setEditPlugin'
+            }
+            $.extend(renderData, postData);
+            let $el = initPluginHtml(renderData);
+            console.log('$el ---> ', $el);
+            $el[0]._data = postData;
+            postMsg(postData);
+        }
+    }
+    var receiveMessage = function(event){
+        console.log('event ---> ', event);
+        let data = event.data;
+        console.log('data ---> ', data);
+        if (data.cmd) {
+            if (Cmds[data.cmd]) {
+                Cmds[data.cmd](data);
+            } else {
+                alert('no ' + data.cmd + ' handler');
+            }
+        } else {
+            //更新，重新渲染
+            console.log('data._id ---> ', data._id);
+            if (data._id) {
+                let $el = $("#" + data._id);
+                if ($el.length) {
+                    $el[0]._data = JSON.parse(JSON.stringify(data));
+                    $el[0]._dataFMP = JSON.parse(JSON.stringify(data));
+                    renderPlugin($el, data);
+                }
+            }
+        }
+    }
+
+    function renderPlugin($el, data) {
+        if (!data.pluginName) {
+            return;
+        }
+        var mod = './mods/' + data.pluginName + '/index';
+        console.log('mod ---> ', mod);
+        var $wrap = $el.find('.js-plugin-wrap');
+        lMApp.addModule($wrap, {
+            mod: mod,
+            _data: $.extend({},data.data),
+            _container: $('.js-plugins')
+        });
+        $el.removeClass('empty-mask');
+    }
+
+    window.addEventListener("message", receiveMessage, false);
+    </script>
+</body>
+</html>
